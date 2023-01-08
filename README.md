@@ -4,7 +4,7 @@ Soyeux 是一个原生 JS 编写的轮播图，灵感来源于 [slickjs](https:/
 
 ## Screenshot
 
-![Screenshot](https://kanmalu.com/images/soyeux.gif)
+![slideloop](https://kanmalu.com/images/slideloop.gif)
 
 ## Usage
 
