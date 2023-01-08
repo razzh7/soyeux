@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+  background: linear-gradient(to right, rgb(190, 147, 197), rgb(123, 198, 204));
+}
+
+@font-face {
+  font-family: Pacifico;
+  src: url(../fonts/pacifico/Pacifico.ttf);
+}
+
+* {
+  font-family: Pacifico;
+  box-sizing: border-box;
+}
+
+h1 {
+  line-height: 200px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+h2 {
+  color: #ffff;
+  font-size: 30px;
+}
+
+.content {
+  box-sizing: border-box;
+  width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+.color1 {
+  background: linear-gradient(to right, rgb(238, 205, 163), rgb(239, 98, 159));
+}
+.color2 {
+  background: linear-gradient(to right, rgb(255, 95, 109), rgb(255, 195, 113));
+}
+
+.color3 {
+  background: linear-gradient(to right, rgb(201, 255, 191), rgb(255, 175, 189));
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/soyeux.css" />
+    <title>Soyeux Carousel</title>
+  </head>
+  <body>
+    <div class="content">
+      <h2>Single Item</h2>
+      <div class="soyeux">
+        <div class="single"><h1 class="color1">1</h1></div>
+        <div class="single"><h1 class="color1">2</h1></div>
+        <div class="single"><h1 class="color1">3</h1></div>
+        <div class="single"><h1 class="color1">4</h1></div>
+        <div class="single"><h1 class="color1">5</h1></div>
+        <div class="single"><h1 class="color1">6</h1></div>
+        <div class="single"><h1 class="color1">7</h1></div>
+        <div class="single"><h1 class="color1">8</h1></div>
+      </div>
+      <hr />
+
+      <h2>Multiple Items</h2>
+      <div class="soyeux">
+        <div class="multiple1"><h1 class="color2">1</h1></div>
+        <div class="multiple1"><h1 class="color2">2</h1></div>
+        <div class="multiple1"><h1 class="color2">3</h1></div>
+        <div class="multiple1"><h1 class="color2">4</h1></div>
+        <div class="multiple1"><h1 class="color2">5</h1></div>
+        <div class="multiple1"><h1 class="color2">6</h1></div>
+        <div class="multiple1"><h1 class="color2">7</h1></div>
+        <div class="multiple1"><h1 class="color2">8</h1></div>
+      </div>
+      <hr />
+
+      <div class="soyeux">
+        <div class="multiple2"><h1 class="color3">1</h1></div>
+        <div class="multiple2"><h1 class="color3">2</h1></div>
+        <div class="multiple2"><h1 class="color3">3</h1></div>
+        <div class="multiple2"><h1 class="color3">4</h1></div>
+        <div class="multiple2"><h1 class="color3">5</h1></div>
+        <div class="multiple2"><h1 class="color3">6</h1></div>
+        <div class="multiple2"><h1 class="color3">7</h1></div>
+        <div class="multiple2"><h1 class="color3">8</h1></div>
+        <div class="multiple2"><h1 class="color3">9</h1></div>
+      </div>
+    </div>
+    <script src="./src/soyeux.js"></script>
+    <script type="text/javascript">
+      new Soyeux('single', {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true
+      })
+
+      new Soyeux('multiple1', {
+        pos: 1,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        autoplay: true
+      })
+
+      new Soyeux('multiple2', {
+        pos: 2,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        autoplay: true
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+.soyeux-list {
+  overflow: hidden;
+}
+
+.slide {
+  float: left;
+  min-height: 1px;
+}
+
+.slide-track {
+  transition: transform 0.3s;
+}
